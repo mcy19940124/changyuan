@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+#box{width: 100%;height: 3500px;}
+#start{width: 100%;height: 100px;position: fixed;background: white;}
+#start img{height: 80px;}
+#img1{float: left;margin-left:5%;margin-top: 1%;}
+#img2{float: left;margin-left:16%}
+#img3{float: left;margin-left:18%;}
+#pic{width: 100%;height: 500px;padding-top: 100px;}
+#pic img{width: 100%;height: 100%;}
+#content{width: 100%;height: 2200px;}
+#content ul{width: 100%;height: 100%;}
+#content li{width: 80%;list-style: none;margin:0 auto;margin-top: 100px;}
+#content li img{width: 100%;height: 100%;}
+#foot{width: 100%;height: 500px;text-align: center;}
+#foot h1{color: red;font-size:65px;}
+#foot input{width: 70%;height: 70px;margin-top: 30px;font-size: 32px;}
+#foot p{padding: 30px 50px;}
+#foot a{height: 95px;display: inline-block;width: 670px;font-size: 34px;background: red;line-height: 95px;color: white;}
+#last{background:rgb(46,62,80);height: 100px;padding-top:15px ;}
+.img1{margin-left: 10%;}
+.img2{margin-left: 26%;}
+.img3{margin-left: 22%;}
