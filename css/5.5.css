@@ -1,0 +1,137 @@
+*{margin: 0;
+  padding: 0;
+  list-style: none;}
+html{font-size: 16px;width: 100%;}
+#box{width: 100%;
+	 height: 5650px;}
+#bar{width: 100%;
+	 height: 80px;
+	 background: ghostwhite;
+	 padding-top: 10px;
+	 position: fixed;
+	 z-index: 5;}
+.img1{margin-left: 8%;}
+.img2{margin-left: 15%;}
+.img3{margin-left: 25%;
+	  margin-bottom: 6px;}
+#pic{width: 100%;
+	 height: 450px;
+	 padding-top: 90px;}
+#pic img{width: 100%;
+		 height: 100%;}
+#smallContent ul{width: 100%;
+				 height: 260px;}
+#smallContent ul li{float: left;
+					width: 50%;
+					height: 100%;}
+#smallContent ul li img{width: 70%;
+						height: 70%;
+						margin-left: 15%;
+						margin-top: 39px;}
+#text{width: 100%;
+	  height: 600px;
+	  opacity: 0.7;
+	  border-top: 1px solid gray;
+	  margin-top: 100px;
+	  padding-top: 100px;}
+#text h1{text-align: center;
+		 margin-bottom: 50px;
+		 font-size: 4.5rem;
+		 opacity: 0.8;}
+#text p{font-size: 3.2rem;
+		margin-top: 30px;
+		padding-left:80px;}
+#content{width: 100%;
+		 height: 2600px;
+		 padding: 100px 0 0 0;
+		 border: 1px solid gray;}
+#h1{font-size: 4.5rem;
+	text-align: center;
+	margin: 100px 0 100px 0;
+	opacity: 0.6;}
+#content div{width:100%;
+			 margin-bottom: 20px;
+			 font-size: 2.1rem;}
+#dialog1{
+		 height: 7%;
+		 }
+#dialog1>div{height: 100%;
+			 float: left;
+			 width: 35%;
+			 position: relative;
+			 }
+#dialog1>div>p{background: greenyellow;
+			   height: 100%;
+			   width: 90%;
+			   float: right;
+			   border-radius: 20px;
+			   padding: 10px;
+			   margin-top: 10px;}
+#dialog1>div>div{width: 2px;
+				 height: 2px;
+				 position: absolute;
+				 top: 20px;
+				 left: -10px;
+				 border-right:1.5rem solid greenyellow;
+				 border-bottom: 1rem solid white;
+				 border-top: 1rem solid white;
+				 margin-top: 20px;}
+.dia1img1{float: left;
+		  margin-left: 10%;}
+#dialog2{
+		 height: 14%;
+		 margin-top: 50px;}
+#dialog2>div{
+			 height: 100%;
+			 width: 45%;
+			 float: left;
+			 margin-left: 32%;
+			 position: relative;
+			 }
+#dialog2>div>p{width:90% ;
+			   float: left;
+			   background: gainsboro;
+			   border-radius: 20px;
+			   padding: 10px;
+			   margin-top: 20px;}
+#dialog2>div>div{width: 2px;
+				 height: 2px;
+				 position: absolute;
+				 top: 50px;
+				 left: 415px;
+				 border-left:1.5rem solid gainsboro ;
+				 border-bottom: 1rem solid transparent;
+				 border-top:1rem solid transparent;}
+.dia2img2{float: right;
+		  margin-right: 10%;}
+#foot{width: 100%;
+	  height: 600px;
+	  text-align: center;
+	  padding: 50px 0 0 0;}
+#foot h1{font-size: 4rem;
+		 color: red;
+		 opacity: 0.8;}
+#foot input{width: 70%;
+			height: 80px;
+			margin-top: 40px;
+			font-size: 2rem;
+			opacity: 0.9;}
+#foot p{font-size: 3rem;
+		margin-top: 80px;
+		padding: 20px 150px 20px 150px;
+		background: red;
+		display: inline-block;
+		color: white;
+		font-weight: 100;}
+#last{width: 100%;
+	  height: 90px;
+	  background:rgb(46,62,80);
+	  position: fixed;
+	  top: 95%;}
+#last div{float: left;
+		  text-align: center;}
+#last div p{color: white;}
+.footimg1{margin-left: 10%;}
+.footimg2{margin-left: 25%;}
+.footimg3{margin-left: 19%;}
+
