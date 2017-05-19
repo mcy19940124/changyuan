@@ -1,0 +1,91 @@
+body{
+    background: #edf0f1;padding:70px 0 0 0;
+}
+.noFill{
+    fill:none;
+}
+/*header*/
+header{
+    width: 100%;height:70px;position: fixed;padding:12px;top: 0;left: 0;z-index: 5;background: #27b99a;box-shadow: 0px 2px 4px rgba(44,62,80,0.75);border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+header input{
+    width:100%;height:46px;background: #66c4ab;color: #fff;font-size: 15px;font-weight: 400;text-indent: 18px;border-bottom-left-radius:8px;border-top-left-radius: 8px;border-top-right-radius: 23px;border-bottom-right-radius: 23px;border:0;box-shadow:none;outline:none;-webkit-appearance: none;
+}
+header input::-webkit-input-placeholder{
+    color:rgba(255,255,255,0.75);
+}
+header button{
+    width:46px;height:46px;position: absolute;top:12px;right:12px;z-index:2;border-radius: 50%;border:0;box-shadow: none;outline: none;background: white;cursor:pointer;-webkit-appearance: none;
+}
+header button svg{
+    width:16px;height:16px;position: absolute;top:50%;left:50%;margin:-8px 0 0 -8px;
+}
+header button svg .fill{
+    fill:#27b99a;
+}
+/*content内容*/
+.container{
+    width:100%;padding: 14px 14px 0 14px;
+}
+ul.todo{
+    width:100%;
+}
+ul.todo li{
+    width:100%;min-height:50px;font-size: 14px;font-weight:500;color:#444;line-height: 22px;background: #fff;border-radius: 5px;box-shadow:0 1px 2px rgba(44,62,80,0.1);margin:0 0 10px 0;position: relative;padding:14px 0 0 14px;
+}
+ul.todo li:last-of-type{
+    margin:0;
+}
+ul.todo li .buttons{
+    width:100px;height:50px;position: absolute;top:0;right:0;
+}
+ul.todo li .buttons button{
+    width:50px;height:50px;background: none;float:left;box-shadow:none;outline:none;cursor:pointer;border:none;-webkit-appearance: none;position: relative;
+}
+/*加竖线*/
+/*在最后一个button前加一条竖线*/
+ul.todo li .buttons button:last-of-type:before{
+    content:'';width:1px;height:30px;background: #edf0f1;position: absolute;top:10px;left: 0;
+}
+/*设置svg的尺寸和位置*/
+ul.todo li .buttons button svg{
+    width:22px;height:22px;position:absolute;top:50%;left:50%;margin:-11px 0 0 -11px;
+}
+ul.todo li .buttons button.remove svg .fll{
+    fill:#c8d4d0;}
+ul.todo li .buttons button.remove:hover svg .fill{fill:#ed7675;
+}
+ul.todo li .buttons button svg .fill{transition:fill 0.2s ease;
+}
+/*✔内容*/
+/*设置对号的背景颜色*/
+ul.todo li .buttons button.complete svg .fill{
+    fill:#27b99a;
+}
+/*设置对号的圆圈*/
+ul.todo li .buttons button.complete svg{
+    border-radius: 11px;border:1px solid #27b99a;transition: background 0.2s ease;
+}
+/*如果不是完成列表的对号的话,那么hover的时候改变svg的背景颜色.*/
+ul.todo:not(#completed) li .buttons button.complete:hover svg{
+    background: #27b99a;
+}
+/*如果不是完成列表的对号的话,那么hover的时候改变svg中对号的颜色为白色.*/
+ul.todo:not(#completed) li .buttons button.complete:hover svg .fill{
+    fill: #fff;
+}
+/*如果是完成列表的话,那么对号的样式就跟hover的样式一样*/
+ul.todo#completed li .buttons button.complete svg{
+    background: #27b99a;border: 0;
+}
+ul.todo#completed li .buttons button.complete svg .fill{
+    fill: #fff;
+}
+/*如果完成列表中有内容,那么要与未完成列别产生50的间隙*/
+ul.todo#completed:not(:empty){
+    padding: 50px 0 0 0;position: relative;
+}
+/*如果完成列表中有内容,那么在未完成列表与完成列表之间有一条线*/
+ul.todo#completed li:first-of-type:not(:empty):before{
+    content: '';width:136px;height:1px;background:#ccc;position: absolute;top:-25px;left:50%;margin: 0 0 0 -68px;
+}
