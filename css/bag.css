@@ -1,0 +1,8 @@
+div.box{width: 100%;}
+div.box div.start{width: 100%;height: 60px;background: rgb(211,19,123);;}
+div.box div.start a{;height: 100%;width: 60px;box-sizing: border-box;padding: 10px;float: left;}
+div.box div.start a img{width: 100%;height: 100%;}
+div.box div.start h2{font-size: 1.6rem;color: white;line-height: 60px;font-weight: 200;text-align: center;margin-right: 15%;}
+div.box div.price{width: 100%;height: 60px;background: black;opacity: 0.8;font-size: 1rem;padding: 16.5px 20px;box-sizing: border-box;}
+div.box div.price p{color: white;float: left;}
+div.box div.price span{float: right;color: white;}

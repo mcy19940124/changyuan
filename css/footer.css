@@ -1,0 +1,5 @@
+ul.foot{background:rgb(83,74,80);height: 50px;position: fixed;top: 93.2%;width: 100%;}
+ul.foot>a>li{float: left;height: 100%;width: 25%;text-align: center;}
+ul.foot>a>li>img{height:60%;}
+ul.foot>a>li>p{font-size: 0.8rem;color: white;}
+ul.foot>a>li.cut{background: rgb(211,19,123);}

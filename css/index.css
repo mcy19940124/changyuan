@@ -1,33 +1,17 @@
-body，html{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
-form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
-img{border:0;}
-ul,li{list-style-type:none;}
-a{color:#00007F;text-decoration:none;}
-a:hover{text-decoration:none;}
-html{width: 100%;}
-body{font-size: 16px;width: 100%;}
-.box{width: 100%;}
-.start{width: 100%;height: 150px;background: rgb(211,19,123);position: fixed;z-index: 5;margin-top: -10px;}
-.bigLogo{height: 6rem;float: left;margin: 10px 0 0 0;}
-.bigLogo img{height: 100%;}
-.logo{float: right;width: 200px;margin-right: 10%;line-height: 200px;}
-.logo>a{padding: 25px;}
-.logo>a>img{height: 75px;}
-.pic{padding-top: 140px;width: 100%;}
-.pic img{width: 100%;height: 500px;}
-.content{width: 100%;}
-.content>li{width: 100%;height: 270px;box-sizing: border-box;padding: 12px;position: relative;}
-.master{height: 100%;width: 290px;float: left;}
-.master img{height: 100%;width: 95%;}
-.content>li>p{font-size: 1.9rem;}
-.cost{width: 28%;height: 53%;position: absolute;left: 31%;top: 42%;}
-.span1{font-size: 2.5rem;color: mediumvioletred;float: left;padding: 2% 0 0 0;}
-.p1{font-size: 1.6rem;color: gainsboro;text-decoration: line-through;float: right;margin: 7%;}
-.p2{font-size: 1.8rem;position: absolute ;left: 0%; bottom:2% ;}
-.contentCart{position: absolute;right: 13%;top: 55%;background:rgb(223,40,97) ;padding: 10px 30px;border-radius: 15px;}
-.cartClick{height: 100%;width: 100%;}
-.cart{height: 30px;}
-.foot{background:rgb(83,74,80);height: 160px;}
-.foot li{float: left;height: 100%;width: 25%;text-align: center;}
-.foot>li>img{height: 60%;}
-.foot>li>p{font-size: 2rem;}
+div.box{width: 100%;margin-bottom: 60px;}
+div.box div.pic{padding-top: 60px;width: 100%;}
+div.box div.pic img{width: 100%;height: 225px;}
+div.box div.goodsList{width: 100%;}
+div.box div.goodsList ul{width: 100%;}
+div.box div.goodsList ul li.button{width: 100%;height: 100px;box-sizing: border-box;padding: 5px;position: relative;}
+div.box div.goodsList ul li.button a.master{height: 100%;width: 125px;float: left;}
+div.box div.goodsList ul li.button a.master img{height: 100%;width: 95%;}
+div.box div.goodsList ul li.button p{font-size: 0.7rem;}
+div.box div.goodsList ul li.button div.cost{width: 32%;height: 55%;position: absolute;left: 31%;top: 45%;}
+div.box div.goodsList ul li.button div.cost .span1{font-size: 1.1rem;color: mediumvioletred;float: left;padding: 2% 0 0 0;}
+div.box div.goodsList ul li.button div.cost .p1{font-size: 0.8rem;color: gainsboro;text-decoration: line-through;float: right;margin: 7%;}
+div.box div.goodsList ul li.button div.cost .p2{font-size: 0.6rem;position: absolute ;left: 0%; bottom:2% ;}
+div.box div.goodsList ul li.button div.contentCart{position: absolute;right: 8%;top: 66%;background:rgb(223,40,97) ;padding: 5px 15px 2px 15px;border-radius: 7px;}
+div.box div.goodsList ul li.button div.cartClick{height: 100%;width: 100%;}
+div.box div.goodsList ul li.button div.cart{height: 13px;}
+

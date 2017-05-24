@@ -1,0 +1,6 @@
+div.box{width: 100%;margin-bottom: 60px;}
+div.box div.text{width: 100%;padding-top: 60px;}
+div.box div.text ul{width: 100%;}
+div.box div.text ul li.classify{height: 50px;width: 100%;border: 0.5px solid gainsboro;line-height: 50px;}
+div.box div.text ul li.classify span{font-size: 1.4rem;margin-left: 8px;}
+div.box div.text ul li.classify p{float: right;font-size: 2.0rem;margin-right: 20px;color: gainsboro;line-height: 50px;}

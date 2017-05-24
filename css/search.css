@@ -1,0 +1,7 @@
+div.box{width: 100%;padding-top: 60px ;}
+div.box form{width: 100%;padding: 20px;position: relative;box-sizing: border-box;}
+div.box form div{width: 77%;float: left;border: 1px solid gainsboro;border-radius: 5px;}
+div.box form div input{height: 46px;width: 83%;font-size: 1.2rem;margin-left:50px;border: none;outline:none;-webkit-appearance: none;}
+div.box form div a.pic{height: 46px;width:46px;position: absolute;top: 21px;left:20px;padding: 10px;box-sizing: border-box;}
+div.box form div a.pic img{height: 100%;width:100%;}
+div.box form button#search{background:rgb(250,19,123);padding:13px 25px;color: white;border-radius: 10px;border:0;outline:none;-webkit-appearance: none;float: right;font-size: 1rem;}

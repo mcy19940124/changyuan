@@ -1,0 +1,22 @@
+div.box{width: 100%;background:rgb(242,239,239);height: 750px;}
+div.box div.start{width:100%;height: 60px;background: rgb(211,19,123);;box-sizing: border-box;}
+div.box div.start a{display: inline-block;height: 50%;float: left;margin-top: 13px;}
+div.box div.start a img{height: 100%;}
+div.box div.start h2{font-size: 1.8rem;color: white;font-weight: 200;text-align: center;margin-right: 7%;line-height: 60px;}
+div.box div.register{width: 100%;margin-top: 10px;}
+div.box div.register div.hidden{width: 100%;padding-left: 8%;opacity: 0;}
+div.box div.register div.hidden div.ball{background: red;height: 10px;width: 10px;border-radius: 50%;display: inline-block;}
+div.box div.register div.hidden span{font-size: 0.9rem;}
+div.box div.register form.text{width:100%;padding: 0 25px;box-sizing: border-box;}
+div.box div.register form.text div{width: 100%;height: 30px;border-radius: 10px;border: 0;outline: none;background: white;margin: 15px 0;padding: 3px;font-size: 1.1rem;}
+div.box div.register form.text div p{float: left;color: gray;margin-left: 10px;}
+div.box div.register form.text div input{width: 70%;height: 30px;border: 0;outline: none;margin-left: 5px;font-size: 1.1rem;}
+div.box form.buttons div.buttonsText{padding: 5px 0 5px 20px;overflow: hidden;font-size: 0.9rem;}
+div.box form.buttons div.buttonsText input{height: 26px;width: 26px;float: left;}
+div.box form.buttons div.buttonsText p{float: left;line-height: 26px;margin-left: 10px;color: hotpink;}
+div.box div.read{width: 100%;padding-left: 8%;opacity: 0;}
+div.box div.read div.ball{background: red;height: 10px;width: 10px;border-radius: 50%;display: inline-block;}
+div.box div.read span{font-size: 0.9rem;}
+div.box div.lander{width: 100%;margin-top: 30px;}
+div.box div.lander div.bigButton{width: 100%;padding: 5px 30px;box-sizing: border-box;}
+div.box div.lander div.bigButton button{height: 100%;width: 100%;background: rgb(211,19,123);border: 0;outline: none;padding: 10px 0;color: white;font-size: 1.6rem;border-radius: 10px;}
